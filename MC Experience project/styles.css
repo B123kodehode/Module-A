@@ -1,0 +1,68 @@
+
+body {
+  padding: 0px;
+  margin: 10px;
+  font-family: sans-serif;
+  background: url("./images/background1.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+h1 {text-align: center;
+  color: #d3d1d1;
+  font-size: xxx-large;
+  text-decoration: underline;
+  text-shadow: rgb(247, 247, 247);
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.pictureBox {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  max-width: 30vw;
+  height: 30vh;
+  background: rgba(110, 110, 110, 0.1);
+  padding: 20px;
+}
+
+.pictureBox.two {
+  position: absolute;
+  top: 20vh;
+  right: 30px;
+}
+
+.pictureBox.three {
+  position: absolute;
+  top: 90vh;
+  left: 170px;
+}
+
+.pictureBox.borderRight {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.pictureBox.borderLeft {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.pictureBox span {
+  color: #ae1919;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+.pictureBox .column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pictureBox .column img {
+  width: 170px;
+}
+
